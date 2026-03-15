@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+    border: solid black 2px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.row label {
+    width: 100px;
+    text-align: left;
+}
+
+.row input {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
